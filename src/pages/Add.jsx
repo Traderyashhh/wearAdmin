@@ -96,6 +96,7 @@ const Add = ({ token }) => {
             <option value="Bracelets">Bracelets</option>
             <option value="Necklaces">Necklaces</option>
             <option value="Rings">Rings</option>
+
           </select>
         </div>
 
@@ -105,7 +106,7 @@ const Add = ({ token }) => {
         </div>
       </div>
 
-     
+
       <div className='flex gap-2 mt-2'>
         <input onChange={() => setBestseller(prev => !prev)} checked={bestseller} type="checkbox" id='bestseller' />
         <label className='cursor-pointer' htmlFor="bestseller">Add to bestseller</label>
